@@ -1,5 +1,7 @@
 # Troubleshooting
 
+[Return to Home Page](https://github.com/rohankane22/PRWR623-Project-1)
+
 Some problems arise more commonly while installing spaceKLIP; this page is intended to provide answers to questions that arise naturally in the course of the installation process.
 
 **During a pip install, a package was not successfully installed**

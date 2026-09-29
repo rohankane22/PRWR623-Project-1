@@ -1,4 +1,7 @@
-# Create a home for spaceKLIP
+# 1. Create a home for spaceKLIP
+
+[Return to Home Page](https://github.com/rohankane22/PRWR623-Project-1)
+
 First, create a new environment to run spaceKLIP in, so that you may control the specific versions of its dependencies.
 
     conda deactivate
@@ -20,7 +23,7 @@ Otherwise create a new directory to store spaceKLIP in with
     mkdir packages
     cd packages 
 
-# Retrieve and install the package
+# 2. Retrieve and install the package
 You will now retrieve the spaceKLIP files from Space Telescope Science Institute’s GitHub page. Install the package and its dependencies.
 
     git clone https://github.com/spacetelescope/spaceKLIP.git
@@ -34,7 +37,7 @@ Install some extra tools that will improve your experience with the package.
     pip install ipywidgets
     pip install jwst_mast_query
 
-# Configuring STPSF & webbpsf_ext
+# 3. Configuring STPSF & webbpsf_ext
 Though your machine can now find the functions defined by spaceKLIP, two of its dependencies (STPSF and webbpsf_ext) require additional configuration to create models of the telescope's point-spread functions (PSFs). 
 
 ## Make PSF masks
