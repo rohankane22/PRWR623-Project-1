@@ -59,13 +59,11 @@ Use this link to the page hosting the download: [https://stpsf.readthedocs.io/en
 
 ![STPSF](../visuals/stpsf-data.png "STPSF")
 
-## Download CRDS files
+## Download synphot files
 
-Then you will need to download a ~1 GB package from the JWST Calibration Reference Data System (CRDS)
+Then you will need to download a ~1 GB package distributed through the JWST Calibration Reference Data System (CRDS). These files can be most readily accessed from the [GitHub documentation for webbpsf_ext](https://github.com/JarronL/webbpsf_ext). Scroll to the end of the README file, and the file will be linked under the Synphot Data Directory heading. The page will be laid out as in the screenshot below; download the file labeled "cdbs.tar.gz".
 
-Use this link to navigate to the page hosting the latest reference files: [https://jwst-crds.stsci.edu/](https://jwst-crds.stsci.edu/). The page will be laid out as in the screenshot below; download the file under "Latest References."
-
-![CRDS](../visuals/crds.png "CRDS")
+![SYNPHOT](../visuals/synphot.png "SYNPHOT")
 
 Move both files into your spaceklip_repos folder and click on them to unpack them.
 
